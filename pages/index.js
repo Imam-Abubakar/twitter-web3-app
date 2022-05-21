@@ -29,9 +29,9 @@ const app = (status = appStatus) => {
     case 'noMetaMask':
       return noMetaMaskFound
 
-    case 'error':
+   /* case 'error':
       return error
-
+*/
     default:
       return loading
   }
