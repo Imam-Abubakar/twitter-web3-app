@@ -66,7 +66,8 @@ export const TwitterProvider = ({ children }) => {
       }
       
     } catch (error) {
-      setAppStatus('error')
+     /* setAppStatus('error')*/
+     setAppStatus('connected')
     }
   }
 
